@@ -43,9 +43,19 @@ async def price(ctx, *card_name: str):
     print("got: " + cardname)
     card = scrython.cards.Named(fuzzy=cardname)
     card_set = card.set_name()
-    cad_price = float(card.prices(mode="usd")) * exchange_rate
-    cad_foil_price = float(card.prices(mode="usd_foil")) * exchange_rate
-    output = "{cardname} - {card_set} - Non-foil: ${cad_price:.2f} CAD   Foil: ${cad_foil_price:.2f} CAD".format(
+
+    usd_price = card.prices(mode="usd")
+    usd_foil_price = card.prices(mode="usd_foil")
+
+    cad_price = "N/A"
+    cad_foil_price = "N/A"
+
+    if usd_price:
+      cad_price = "${:.2f} CAD".format(float(usd_price) * exchange_rate)
+    if usd_foil_price:
+      cad_foil_price = "${:.2f} CAD".format(float(usd_foil_price) * exchange_rate)
+
+    output = "{cardname} - {card_set} - Non-foil: {cad_price}   Foil: {cad_foil_price}".format(
         cardname=card.name(), card_set=card_set, cad_price=cad_price, cad_foil_price=cad_foil_price)
     await ctx.send(output)
 
