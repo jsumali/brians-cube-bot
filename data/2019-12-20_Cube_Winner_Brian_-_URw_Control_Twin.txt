@@ -1,0 +1,33 @@
+1 Bloodstained Mire
+1 Chandra, Flamecaller
+1 Chart a Course
+1 Consecrated Sphinx
+1 Dack Fayden
+1 Deceiver Exarch
+1 Enlightened Tutor
+1 Gleemox
+1 Glen Elendra Archmage
+1 Grim Monolith
+1 Impulse
+1 Karn, Scion of Urza
+1 Mystic Confluence
+1 Sacred Foundry
+1 Saheeli, Sublime Artificer
+7 Snow-Covered Island
+3 Snow-Covered Mountain
+1 Snow-Covered Plains
+1 Sol Ring
+1 Soulfire Grand Master
+1 Splinter Twin
+1 Talisman of Creativity
+1 Talisman of Progress
+1 Teferi, Hero of Dominaria
+1 Thirst for Knowledge
+1 Time Spiral
+1 Time Walk
+1 Treachery
+1 Tundra
+1 Vedalken Shackles
+1 Vendilion Clique
+1 Volcanic Island
+

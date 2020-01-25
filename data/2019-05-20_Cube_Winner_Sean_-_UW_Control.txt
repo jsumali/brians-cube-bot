@@ -1,0 +1,29 @@
+1 Ancestral Vision
+1 Banishing Light
+1 Batterskull
+1 Brainstorm
+1 Callous Dismissal
+1 Commit/Memory
+1 Counterspell
+1 Day of Judgment
+1 Fractured Identity
+1 Hallowed Fountain
+8 Island
+1 Jace, Vryn's Prodigy
+1 Jace, the Mind Sculptor
+1 Mana Drain
+1 Mystic Confluence
+1 Narset, Parter of Veils
+6 Plains
+1 Rishadan Port
+1 Scalding Tarn
+1 Soulfire Grand Master
+1 Stoneforge Mystic
+1 Sword of Fire and Ice
+1 Sword of Light and Shadow
+1 Teferi, Hero of Dominaria
+1 Terminus
+1 Thing in the Ice
+1 True-Name Nemesis
+1 Wall of Omens
+

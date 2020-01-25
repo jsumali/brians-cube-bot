@@ -1,0 +1,31 @@
+1 Armageddon
+1 Avacyn's Pilgrim
+1 Beast Within
+1 Coercive Portal
+1 Council's Judgment
+1 Elesh Norn, Grand Cenobite
+1 End-Raze Forerunners
+1 Giant Killer
+1 Gleemox
+1 Heartbeat of Spring
+1 Hornet Queen
+1 Joraga Treespeaker
+1 Karakas
+1 Knight of Autumn
+1 Kozilek, Butcher of Truth
+1 Life from the Loam
+1 Mox Sapphire
+1 Oath of Druids
+1 Oblivion Ring
+1 Ravages of War
+1 Reclamation Sage
+1 Settle the Wreckage
+7 Snow-Covered Forest
+5 Snow-Covered Plains
+1 Talisman of Unity
+1 Terastodon
+1 Thalia, Heretic Cathar
+1 Ulamog, the Ceaseless Hunger
+1 Vryn Wingmare
+1 Wurmcoil Engine
+
