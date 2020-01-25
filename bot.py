@@ -32,7 +32,8 @@ async def card(ctx, *card_name: str):
     cardname = card.name()
     oracle_text = card.oracle_text()
     image_url = card.image_uris()['normal']
-    output = cardname + '\n' + oracle_text + '\n' + image_url
+    # output = cardname + '\n' + oracle_text + '\n' + image_url
+    output = cardname + ' - ' + image_url
     print(output)
     await ctx.send(output)
 
