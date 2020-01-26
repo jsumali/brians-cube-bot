@@ -59,7 +59,7 @@ async def get_events(ctx):
     for (id, event_date, winner, decklist) in events:
         response += "{event_date:<12} {winner:<15} {decklist:<15}\n".format(event_date=event_date, winner=winner, decklist=decklist)
 
-    await ctx.send(await ctx.send("```%s```" % (response)))
+    await ctx.send("```%s```" % (response, ))
 
 
 def get_details_for_event(event_date):
@@ -99,7 +99,7 @@ def get_details_for_event(event_date):
 
 @bot.command(name='cube-get-list')
 async def get_list(ctx, event_date):
-    await ctx.send("```%s```" % (get_details_for_event(event_date)))
+    await ctx.send("```%s```" % (get_details_for_event(event_date),))
 
 
 if __name__ == '__main__':
