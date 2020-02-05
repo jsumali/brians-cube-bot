@@ -99,16 +99,18 @@ def insert():
 
 if __name__ == '__main__':
     event_metadata = [
-        ('2019-05-20', 'Sean', 'UW Control', 'data/2019-05-20_Cube_Winner_Sean_-_UW_Control.txt'),
-        ('2019-08-03', 'Phil', 'UW Control', 'data/2019-08-03_Cube_Winner_Phil_-_UW_Control.txt'),
-        ('2019-08-31', 'Phil', 'UB Artifacts', 'data/2019-08-31_Cube_Winner_Phil_-_UB_Artifacts.txt'),
-        ('2019-08-31', 'Phil', 'UW Artifacts', 'data/2019-08-31_Cube_Winner_Phil_UW_Artifacts.txt'),
-        ('2019-12-20', 'Brian', 'UWr Control Twin', 'data/2019-12-20_Cube_Winner_Brian_-_URw_Control_Twin.txt'),
-        ('2020-01-04', 'Matt', 'Oath Ramp', 'data/2020-01-04_Cube_Winner_Matt_-_Oath_Ramp.txt')
+#        ('2019-05-20', 'Sean', 'UW Control', 'data/2019-05-20_Cube_Winner_Sean_-_UW_Control.txt'),
+#        ('2019-08-03', 'Phil', 'UW Control', 'data/2019-08-03_Cube_Winner_Phil_-_UW_Control.txt'),
+#        ('2019-08-31', 'Phil', 'UB Artifacts', 'data/2019-08-31_Cube_Winner_Phil_-_UB_Artifacts.txt'),
+#        ('2019-08-31', 'Phil', 'UW Artifacts', 'data/2019-08-31_Cube_Winner_Phil_UW_Artifacts.txt'),
+#        ('2019-12-20', 'Brian', 'UWr Control Twin', 'data/2019-12-20_Cube_Winner_Brian_-_URw_Control_Twin.txt'),
+#        ('2020-01-04', 'Matt', 'Oath Ramp', 'data/2020-01-04_Cube_Winner_Matt_-_Oath_Ramp.txt'),
+        ('2020-02-01', 'Brian', 'Mono Green', 'data/2020-02-01_Cube_Winner_1_Brian_-_Mono_Green.txt'),
+        ('2020-02-01', 'Jeff', 'Mono Red', 'data/2020-02-01_Cube_Winner_2_Jeff_-_Mono_Red.txt')
     ]
 
     # init()
-    # insert()
+    insert()
 
     conn.commit()
     conn.close()
