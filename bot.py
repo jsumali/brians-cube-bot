@@ -57,7 +57,7 @@ async def get_events(ctx):
     events = db.get_events()
     response = ""
     for (id, event_date, winner, decklist) in events:
-        response += "{event_date:<12} {winner:<15} {decklist:<15}\n".format(event_date=event_date, winner=winner, decklist=decklist)
+        response += "{event_date:<20} {winner:<15} {decklist:<15}\n".format(event_date=event_date, winner=winner, decklist=decklist)
 
     await ctx.send("```%s```" % (response, ))
 
@@ -84,7 +84,7 @@ def get_details_for_event(event_date):
             cards = grouped[key]
             for card in list(cards):
                 (id, date, qty, card_name, card_type, card_cost) = card
-                result += "\t{qty:<3} {card_name:<30} {card_cost:<15}\n".format(qty=qty, card_name=card_name, card_cost=card_cost)
+                result += "\t{qty:<3} {card_name:<30} {card_cost:<15}".format(qty=qty, card_name=card_name, card_cost=card_cost).rstrip() + "\n"
         return result
 
     response += print_group('Creatures', grouped_by_type)
