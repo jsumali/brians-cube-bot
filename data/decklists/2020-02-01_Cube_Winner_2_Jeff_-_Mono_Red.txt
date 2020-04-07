@@ -1,0 +1,32 @@
+1 Banefire
+1 Blood Crypt
+1 Bomat Courier
+1 Chain Lightning
+1 Char
+1 Dismember
+1 Eidolon of the Great Revel
+1 Everflowing Chalice
+1 Faithless Looting
+1 Falkenrath Gorger
+1 Fireblast
+1 Firedrinker Satyr
+1 Goblin Rabblemaster
+1 Grim Lavamancer
+1 Hellrider
+1 Imperial Recruiter
+1 Jinxed Choker
+1 Karakas
+1 Kari Zev, Skyship Raider
+1 Koth of the Hammer
+1 Krenko, Tin Street Kingpin
+1 Light Up the Stage
+1 Lightning Bolt
+1 Magma Jet
+1 Manamorphose
+1 Monastery Swiftspear
+1 Mutavault
+10 Snow-Covered Mountain
+1 Sol Ring
+1 Strip Mine
+1 Winter Orb
+

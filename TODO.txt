@@ -1,0 +1,41 @@
+Cube Result Recording
+- take in a date
+- take in a winner's name
+- take in a card list
+
+
+Cube Stats
+- Most Winningest player
+- Top N winning cards played
+- Top Colors played
+
+!cube salt set "mindslaver" 5
+!cube salt get "mindslaver"
+
+!cube get events
+!cube get list 2020-01-20
+!cube stats leaderboard
+!cube stats topcards
+!cube stats topcolors
+!cube register list
+  - what's the event name ?
+  - who was the winner ?
+  - what was the decklist ?
+    (show acceptible format)
+    (type DONE to exit)
+    decklist recorded
+
+
+sqlite database schema
+
+event
+  id (int)
+  date (string)
+  winner (string)
+
+event_decklist
+  id (int)
+  event_id (int)
+  card_name (string)
+  card_color (string)
+  ... (more card attrs)
